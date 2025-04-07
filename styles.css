@@ -1,2 +1,23 @@
+/* Your CSS Code here. *//* Holder - Fullscreen and Flexbox */
+.holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightgray; /* Optional background for visibility */
+}
 
-/* Your CSS Code here. */
+/* Item-1 - Box Properties */
+.item-1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white; /* Text color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px; /* Optional for rounded corners */
+}
